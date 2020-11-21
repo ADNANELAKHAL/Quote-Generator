@@ -11,7 +11,17 @@
 
 </head>
 <body>
-
+<!-- darkmode switch -->
+.<div class="theme-switch-wrapper">
+    <span id="toggle-icon">
+        <span class="toggle-text">Light mode</span>
+        <i class="fas fa-sun"></i>
+    </span>
+    <label class="theme-switch">
+        <input type="checkbox">
+        <div class="slider round"></div>
+    </label>
+</div>
 <div class=" quote_container" id="quotecont">
     <div class="quote_text">
         <i class="fas fa-quote-left"></i>
@@ -20,10 +30,17 @@
     <div class="quote_author"><span id="author"></span> </div>
     <div class="button_container">
         <button class="animate" id="anim">play</button>
+        <button class="twiter-button" id="twitter" title="twitte this!"><i class="fab fa-twitter"></i></button>
         <button class="generer" id="new_quote">New Quote</button>
     </div>
 </div>
-<dia class="loader" id="loader"></dia>
+
+<div class="loaderss" id="loader">
+    <div class="yellow" id="loadercolor1"></div>
+	<div class="red" id="loadercolor2"></div>
+	<div class="blue" id="loadercolor3"></div>
+	<div class="violet" id="loadercolor4"></div>
+</div>
 <script src="script.js"></script>
 </body>
 </html>
